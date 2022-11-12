@@ -1,0 +1,3 @@
+/**
+ * Contains user models
+ */
