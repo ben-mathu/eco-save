@@ -1,5 +1,7 @@
+const authentication = require ("./src/authentication/index")
 const express = require("express")
 var app = express()
+app.use (authentication)
 app.get("/",function(request,response){
 response.send("Hello World!")
 })
